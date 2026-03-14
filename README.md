@@ -29,6 +29,11 @@ The installer copies scripts to `~/.claude/scripts/` and shows you the JSON to a
 
 See each hook's README for copy-paste instructions.
 
+## Requirements
+
+- macOS, Linux, or Windows (via WSL)
+- `bash`, `git`, `npm`
+
 ## How hooks work
 
 Claude Code [hooks](https://docs.anthropic.com/en/docs/claude-code/hooks) are shell commands triggered by lifecycle events. These hooks use `SessionStart` with `"async": true` so they run in the background without blocking your session.
